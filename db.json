@@ -1,0 +1,251 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@kampus.com",
+      "password": "123",
+      "nama": "Super Admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "maba@kampus.com",
+      "password": "123",
+      "nama": "Mahasiswa Baru",
+      "role": "user"
+    }
+  ],
+  "dosen": [
+    {
+      "id": "1",
+      "nidn": "123456",
+      "nama": "Pak Budi",
+      "bidang": "RPL",
+      "maxSks": 12
+    },
+    {
+      "id": "2",
+      "nidn": "654321",
+      "nama": "Bu Susi",
+      "bidang": "Jaringan",
+      "maxSks": 9
+    },
+    {
+      "id": "03ac",
+      "nidn": "275481",
+      "nama": "Pak Syaifur",
+      "bidang": "Pemrograman Sisi Klien",
+      "maxSks": "12"
+    },
+    {
+      "id": "3b9c",
+      "nidn": "621348",
+      "nama": "Pak Ajib",
+      "bidang": "Pemrograman Sisi Server",
+      "maxSks": "15"
+    },
+    {
+      "id": "9a22",
+      "nidn": "183527",
+      "nama": "Bu Christie",
+      "bidang": "Kriptografi",
+      "maxSks": "12"
+    }
+  ],
+  "matakuliah": [
+    {
+      "id": "1",
+      "kode": "A11.4510",
+      "nama": "Pemrograman Web",
+      "sks": "3"
+    },
+    {
+      "id": "2",
+      "kode": "A11.4511",
+      "nama": "Jaringan Komputer",
+      "sks": "3"
+    },
+    {
+      "id": "3",
+      "kode": "A11.4512",
+      "nama": "Basis Data",
+      "sks": "4"
+    },
+    {
+      "id": "6821",
+      "kode": "A11.4513",
+      "nama": "Pemrograman Sisi Server",
+      "sks": "3"
+    },
+    {
+      "id": "609c",
+      "kode": "A11.4514",
+      "nama": "Pemrograman Sisi Server",
+      "sks": "3"
+    },
+    {
+      "id": "88f4",
+      "kode": "A11.4515",
+      "nama": "Kriptografi",
+      "sks": "4"
+    }
+  ],
+  "mahasiswa": [
+    {
+      "id": "1",
+      "nim": "20211001",
+      "nama": "Selfi",
+      "status": true,
+      "maxSks": 24
+    },
+    {
+      "id": "2",
+      "nim": "20211002",
+      "nama": "Budi Doremi",
+      "status": true,
+      "maxSks": 20
+    },
+    {
+      "id": "3",
+      "nim": "20211003",
+      "nama": "Siti Aminah",
+      "status": true,
+      "maxSks": 24
+    },
+    {
+      "id": "8eef",
+      "nim": "20211004",
+      "nama": "Liana",
+      "status": true,
+      "maxSks": "24"
+    },
+    {
+      "id": "4454",
+      "nim": "20211005",
+      "nama": "Intan",
+      "status": true,
+      "maxSks": "24"
+    },
+    {
+      "id": "b63d",
+      "nim": "20211006",
+      "nama": "Kiki",
+      "status": true,
+      "maxSks": "24"
+    },
+    {
+      "id": "e3d6",
+      "nim": "20211007",
+      "nama": "Jeje",
+      "status": true,
+      "maxSks": "24"
+    },
+    {
+      "id": "95d0",
+      "nim": "20211008",
+      "nama": "Zayyan",
+      "status": true,
+      "maxSks": "24"
+    }
+  ],
+  "kelas": [
+    {
+      "id": "5280",
+      "namaKelas": "4401",
+      "matkulId": "1",
+      "dosenId": "2",
+      "mahasiswaIds": [
+        "1"
+      ],
+      "kapasitas": "40"
+    },
+    {
+      "id": "32ec",
+      "namaKelas": "4402",
+      "matkulId": "2",
+      "dosenId": "2",
+      "mahasiswaIds": [
+        "2"
+      ],
+      "kapasitas": "40"
+    },
+    {
+      "id": "f197",
+      "namaKelas": "4403",
+      "matkulId": "3",
+      "dosenId": "1",
+      "mahasiswaIds": [
+        "2",
+        "3"
+      ],
+      "kapasitas": "40"
+    },
+    {
+      "id": "0084",
+      "namaKelas": "4404",
+      "matkulId": "1",
+      "dosenId": "1",
+      "mahasiswaIds": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kapasitas": "40"
+    },
+    {
+      "id": "e293",
+      "namaKelas": "4405",
+      "matkulId": "3",
+      "dosenId": "1",
+      "mahasiswaIds": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kapasitas": "40"
+    },
+    {
+      "id": "0f29",
+      "namaKelas": "4406",
+      "matkulId": "6821",
+      "dosenId": "3b9c",
+      "mahasiswaIds": [
+        "1",
+        "2",
+        "3",
+        "8eef",
+        "4454",
+        "b63d"
+      ]
+    },
+    {
+      "id": "3cc0",
+      "namaKelas": "4407",
+      "matkulId": "6821",
+      "dosenId": "03ac",
+      "mahasiswaIds": [
+        "1",
+        "2",
+        "3",
+        "8eef",
+        "4454",
+        "b63d"
+      ],
+      "kapasitas": "40"
+    },
+    {
+      "id": "84f0",
+      "namaKelas": "4408",
+      "matkulId": "88f4",
+      "dosenId": "9a22",
+      "mahasiswaIds": [
+        "1",
+        "3",
+        "8eef",
+        "4454",
+        "b63d"
+      ],
+      "kapasitas": "40"
+    }
+  ]
+}

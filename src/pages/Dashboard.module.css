@@ -1,0 +1,76 @@
+.dashboard {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1.5rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.aksi {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.aksi > * {
+  width: auto;
+  padding: 5px 10px;
+  font-size: 0.875rem;
+}
+.detailLink {
+  color: #3b82f6;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.detailLink:hover {
+  text-decoration: underline;
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.checkboxContainer input {
+  width: auto;
+  margin: 0;
+}
+
+.checkboxContainer label {
+  margin-bottom: 0;
+  font-weight: normal;
+}
